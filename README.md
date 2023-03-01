@@ -22,3 +22,15 @@ try {
 }
 ?>
 ```
+PGOBJECT: PGOBJECT xüsusi olaraq PostgreSQL verilənlər bazası üçün nəzərdə tutulmuşdur və verilənlər bazasının funksiya və xüsusiyyətlərini daha yaxşı dəstəkləmək məqsədi daşıyır. Aşağıdakı kod bloku PGOBJECT istifadə edərək PostgreSQL verilənlər bazasına necə qoşula biləcəyinizi göstərir:
+
+```php
+<?php
+$db = pg_connect("host=localhost dbname=db_name user=db_user password=db_password");
+if (!$db) {
+    echo "Bağlantı hatası.";
+    exit;
+}
+?>
+```
+Bu üsulların hər ikisi sizə PostgreSQL verilənlər bazasına qoşulmağa və verilənlər bazasında məlumatları oxumağa və yazmağa imkan verir. Bununla belə, PDO daha yüksək səviyyəli təhlükəsizlik və çoxsaylı verilənlər bazası növlərinə qoşulma imkanı təklif edir, ona görə də seçiminiz PDO olmalıdır.
