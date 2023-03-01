@@ -1,5 +1,5 @@
-<a href="https://khcoding.com"># php-posgresql</a>
-# PHP ilə PostgreSQL bağlantısı necə qurular? PostgreSQL və PHP
+<a href="https://www.khcoding.com/php/php-ile-postgresql-baglantisi-nece-qurular-postgresql-ve-php" target="_blank">➤ # PHP ilə PostgreSQL bağlantısı necə qurular? PostgreSQL və PHP</a>
+
 
 PostgreSQL, güclü bir verilənlər bazası idarəetmə sistemi hesab olunur və PHP məşhur veb proqramlaşdırma dilidir. Bu iki texnologiyanın bir-biri ilə qarşılıqlı əlaqəsi sizə təkmil və təhlükəsiz veb proqramlar yaratmağa imkan verir.
 
